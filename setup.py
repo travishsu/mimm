@@ -11,6 +11,7 @@ setup(
     author_email="mccraithrobert@gmail.com",
     packages=find_packages(),
     install_requires=[
+        "torch",
         "mlx"
     ],
     long_description=long_description,
